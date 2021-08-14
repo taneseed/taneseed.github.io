@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav {
+  background-color: blanchedalmond;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+}
+
+.nav-btn{
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  margin-right: 5%;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f00;
+}
+
+/*   First block   */
+#first-block {
+  background-image: url("../images/book.jpg");
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  /* background-color: #ddd; */
+}
+
+/* ミッション２：背景画像を設定してみよう！！215行目を参考に✋ */
+
+.title-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: serif;
+  color: brack;
+}
+/* ミッション3：見出しの文字の色を変えてみよう！！ */
+
+.hhhh{
+font-size: 50px;
+font-family: serif;
+color: black;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: serif;
+  color: #444;
+}
+/*   First block End   */
+
+#second-block {
+  height: 500px;
+  background-color: #f0f0f0;
+}
+
+
+.threecontainer{
+display: flex;
+flex-direction: row;
+}
+
+
+
+.event-fes {
+width: 40%;
+height: 440px;
+padding-right: 40px;
+padding-top: 50px;
+}
+
+.careerindex{
+padding-top: 90px;
+}
+
+/*   Second block   */
+#second-block {
+background-color: aquamarine;
+text-align: center;
+padding-bottom: 10px;
+height: 600px;
+}
+
+.about-container {
+margin-top: 20px;
+display: flex;
+justify-content: center;
+flex-direction: row; 
+}
+
+/* 緊急ミッション： 「check」の位置関係がおかしくなっている…！ 108~110行目までのコメントアウトを外してみよう！ */
+
+.event-ben {
+width: 30%;
+height: 460px;
+margin-right: 80px;
+/* margin-bottom: 400px; */
+/* margin-left: 0px; */
+}
+
+.info-text {
+font-size: 20px;
+margin-top: 20px;
+margin-left: 140px;
+margin-bottom: 20px;
+color: #444;
+/* border-left: 5px dashed #444; */
+/* width: 30%; */
+/* display: flex;
+flex-direction: column; */
+}
+
+
+
+.cp_point {
+position: relative;
+margin: 40px 0 30px;
+padding: 25px 20px 15px 40px;
+border: 1px dotted #1b2538;
+background-color: #f8fdff;
+border-radius: 8px;
+}
+.cp_point::before {
+position: absolute;
+top: -1em;
+left: 1em;
+content: attr(title);
+padding: .4em 1em 0 2.5em;
+font-size: 90%;
+font-weight: bold;
+font-style: italic;
+color: #fff;
+height: 27px;
+background-color: #1b2538;
+border-radius: 4px;
+}
+.cp_point::after {
+position: absolute;
+top: -1em;
+left: 1.3em;
+font-family: FontAwesome;
+/* content: "\f046"; */
+padding: .5em .5em 0 0;
+font-size: 18px;
+color: #fff;
+line-height: 25px;
+text-align: center;
+}
+.cp_point li {
+position: relative;
+list-style-type: none;
+}
+.cp_point li::before {
+position: absolute;
+top: .25em;
+left: -1em;
+font-family: FontAwesome;
+/* content: "\f0da "; */
+color: #333;
+}
+
+.info-title {
+font-size: 60px;
+font-family: serif;
+margin-bottom: 20px;
+color: #444;
+text-align: center;
+/* border-bottom: 5px dashed #ffa500;  */
+}
+
+
+
+.font-small {
+font-size: 15px;
+}
+
+ul{
+list-style: none;
+}
+
+li{
+text-align: left;
+margin-left: 30px;
+}
+/*   Second block End   */
+
+#third-block {
+background-color: burlywood;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 40px;
+height: 550px;
+/* background-color: rgb(252, 174, 145); */
+background-image: url("../images/beach.jpg");
+}
+
+.titlebox{
+height: 30px;
+width: 100%;
+}
+
+/* @media (min-width: 320px) and (max-width: 1000px)
+#comp-ka2c7q4o {
+  position: relative;
+  margin-left: 0%;
+  margin-right: 0px;
+  margin-top: 18.6875px;
+  margin-bottom: 0px;
+  align-self: flex-start;
+} */
+
+#comp-ka2c7q4o {
+height: auto;
+width: 80%;
+min-height: 0px;
+position: relative;
+margin-left: 0%;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+align-self: flex-start;
+order: 1;
+}
+
+.career-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+width: 100%;
+}
+
+
+
+#comp-ka2c7q4u p {
+color: #270411;
+font-family: avenir-lt-w01_35-light1475496,sans-serif;
+font-size: calc(14px + (16 - 14) * ((100vw - var(--minViewportSize) * 1px) / (var(--maxViewportSize) - var(--minViewportSize))));
+letter-spacing: 0.02em;
+line-height: 2;
+min-height: 0vw;
+}
+
+.geeksalon {
+width: 30%;
+height: 330px;
+margin-left: 10px;
+}
+
+.careerindex {
+margin: auto;
+}
+
+.font_7{
+text-align: left;
+margin: auto;
+}
+
+/*   third block End   */
+
+#forth-block {
+background-color: #f1ae9f;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
+height: 800px;
+}
+
+.event-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+width: 100%;
+}
+
+.events-title {
+font-size: 60px;
+font-family: serif;
+color: #444;
+}
+
+.event {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+margin-top: 30px;
+margin-bottom: 20px;
+width: 100%;
+}
+
+.event-name {
+font-size: 20px;
+padding: 10px;
+width: 40%;
+}
+
+span {
+font-size: 40px;
+font-family: serif;
+}
+
+.event-image {
+width: 40%;
+height: 330px;
+}
+
+.btn-top{
+display: block;
+position: fixed;
+right: 20px;
+bottom: 40px;
+width: 80px;
+height: 80px;
+z-index: 498;
+background-color: #fff;
+border-radius: 50px;
+box-shadow: 0px 0px 29px 0px rgb(19 19 19 / 16%);
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+
+#fifth-block {
+background-color: floralwhite;
+text-align: center;
+height: 52z0px;
+}
+
+.power-container{
+display: flex;
+}
+
+.subtitle{
+text-align: center;
+height: 50px;
+margin-bottom: 40px;
+font-size: 50px;
+}
+
+/* コメントアウト外してみよう！！！ */
+.black-box{
+/* background-color: dimgrey; */
+height: 450px;
+width: 33%;
+padding-top: 25px;
+/* color: floralwhite; */
+}
+
+.green-box{
+/* background-color: rgb(207, 226, 188); */
+height: 450px;
+width: 33%;
+padding-top: 25px;
+}
+
+.skyblue-box{
+/* background-color: rgb(10, 76, 141); */
+height: 450px;
+width: 33%;
+padding-top: 25px;
+/* color: floralwhite; */
+}
+
+/* ここまでや！！！ */
+
+.maintitle{
+font-size: 30px;
+text-align: left;
+/* margin-top: 20px; */
+/* text-align: left; */
+}
+
+.maintheme{
+font-size: 30px;
+}
+
+.doublett{
+text-align: left;
+margin-left: 20px;
+}
+
+.font_8{
+text-align: left;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 40px;
+}
+
+.power-container2{
+display: flex;
+margin-top: 10px;
+}
+
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 50px;
+background-color: #000;
+font-size: 15px;
+color: #fff;
+}
+
+
+.comp-k5cfsti12_r_comp-k6gjwdge-container {
+position: relative;
+box-sizing: border-box;
+display: grid;
+grid-template-rows: minmax(50px,max-content) minmax(50px,max-content) minmax(50px,max-content) minmax(50px,max-content);
+grid-template-columns: 1fr 0.006792452830188679fr 1fr 1fr;
+}
+
+#comp-k5cfsti12_r_comp-ka3wep75 {
+height: 5px;
+width: auto;
+min-width: 0px;
+min-height: 0px;
+align-self: start;
+justify-self: stretch;
+position: relative;
+margin-left: 3.9992962932841754%;
+margin-right: 3.9992398160196685%;
+margin-top: 17px;
+margin-bottom: 3%;
+grid-area: 1/1/2/5;
+}
+
+.context{
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 60px;
+height: 80px;
+display: flex;
+justify-content: space-between;
+}
+.subcontext{
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 20px;
+height: 80px;
+display: flex;
+flex-direction : row-reverse
+}
+
+.adress{
+font-size: 17px;
+margin-right: 600px;
+position: absolute;
+}
